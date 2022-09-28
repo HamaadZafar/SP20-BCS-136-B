@@ -1,0 +1,10 @@
+#menu li{
+
+    display: inline;
+}
+
+#menu li:hover{
+
+    display: inline;
+    background-color: blueviolet;
+}
