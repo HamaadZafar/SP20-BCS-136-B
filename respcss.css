@@ -267,7 +267,7 @@
         padding: 1rem 2rem;
         background-color: #454545;
         background: rgba(31, 21, 22, 0.6);
-        /* top: 5rem; */
+       
         color: #fff;
         font-style: italic;
         width: 40%;
@@ -293,7 +293,7 @@
         }
       }
       
-      /* Projects section */
+  
       
       .projects-section {
         text-align: center;
@@ -469,7 +469,7 @@
         transition: transform 0.5s ease-in-out;
       }
       
-      /* Contact section */
+     
       
       .contact-section {
         margin: 0;
@@ -483,7 +483,7 @@
         padding: 30px;
         background: var(--main-grey);
         background: linear-gradient(to bottom right, #0e1217 11%, #575555 100%);
-        /* border-top: 1px solid var(--main-white); */
+       
       }
       
       .contact-section-header>h2 {
@@ -507,59 +507,13 @@
         margin: 2rem;
         cursor: pointer;
       }
-      .contact-section-header>h5 {
-        padding-top: 20px;
-        font-size: 25px;
-        font-weight: 200;
-        font-style: italic;
-        color: var(--main-white);
-        justify-content: flex-end;
-      }
+   
       
-      .contact-links {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        max-width: 700px;
-        padding: 10px;
-        flex-wrap: wrap;
-      }
+
       
-      #profile_link {
-        color: var(--main-white);
-        margin-top: 10px;
-        font-size: 1.8rem;
-        padding: 10px auto 10px auto;
-        align-items: center;
-        text-shadow: 0.5px 0.5px 0.5px #000000;
-        transition: transform 0.3s ease-out;
-      }
+     
       
-      #profile_link:hover{
-        color:#ff0033;
-        transform: translateY(-15px);
-      }
-      
-      @media screen and (max-width:620px){
-        .contact-section-header{
-          margin: 1rem;
-        }
-      
-        #profile_link{
-          margin: 0;
-          padding: 15px 20px;
-          font-size: 1rem;
-        }
-        .contact-links {
-          display: flex;
-          justify-content: center;
-          width: 100%;
-          padding: 10px;
-          flex-wrap: wrap;
-        }
-      }
-      
-      /* Footer */
+   
       
       footer {
         font-weight: normal;
