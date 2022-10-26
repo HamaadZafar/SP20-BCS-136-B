@@ -27,7 +27,9 @@ app.get("/contact-us", function (req, res) {
 
 //homepage
 app.get("/", function (req, res) {
-  res.render("homepage");
+  
+  res.render("homepage",{layout:true});
+  
   //   res.send("<h1>Hello B Section with nodemon</h1>");
 });
 
